@@ -2,43 +2,29 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 194.0, 149.0, 1068.0, 753.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 108.25, 493.0, 150.0, 24.0 ],
+					"text" : "Carrier wave"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"autofit" : 1,
 					"id" : "obj-80",
@@ -92,7 +78,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1814.0, 233.0, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Modulation Index Envelope"
 				}
 
@@ -105,7 +90,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1175.0, 233.0, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Modulation Index Envelope"
 				}
 
@@ -809,15 +793,15 @@
 					"patching_rect" : [ 406.333373999999992, 659.0, 100.0, 40.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
-							"data" : [ 5, "obj-1", "kslider", "int", 62, 4, "obj-8", "function", "clear", 7, "obj-8", "function", "add", 0.0, 0.0, 0, 7, "obj-8", "function", "add", 0.0, 2.0, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 5, "obj-8", "function", "domain", 1000.0, 6, "obj-8", "function", "range", 0.0, 2.0, 5, "obj-8", "function", "mode", 0, 5, "obj-21", "flonum", "float", 2.0, 4, "obj-27", "function", "clear", 7, "obj-27", "function", "add", 0.0, 0.0, 0, 7, "obj-27", "function", "add", 0.0, 1.0, 0, 7, "obj-27", "function", "add", 1000.0, 0.0, 0, 5, "obj-27", "function", "domain", 1000.0, 6, "obj-27", "function", "range", 0.0, 1.0, 5, "obj-27", "function", "mode", 0, 5, "obj-29", "flonum", "float", 7.0, 6, "obj-32", "gain~", "list", 116, 10.0 ]
+							"data" : [ 5, "obj-1", "kslider", "int", 62, 4, "obj-8", "function", "clear", 7, "obj-8", "function", "add", 0.0, 0.0, 0, 7, "obj-8", "function", "add", 0.0, 2.0, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 5, "obj-8", "function", "domain", 1000.0, 6, "obj-8", "function", "range", 0.0, 2.0, 5, "obj-8", "function", "mode", 0, 5, "obj-21", "number", "float", 2.0, 4, "obj-27", "function", "clear", 7, "obj-27", "function", "add", 0.0, 0.0, 0, 7, "obj-27", "function", "add", 0.0, 1.0, 0, 7, "obj-27", "function", "add", 1000.0, 0.0, 0, 5, "obj-27", "function", "domain", 1000.0, 6, "obj-27", "function", "range", 0.0, 1.0, 5, "obj-27", "function", "mode", 0, 5, "obj-29", "number", "float", 7.0, 6, "obj-32", "gain~", "list", 116, 10.0 ]
 						}
 , 						{
 							"number" : 2,
-							"data" : [ 5, "obj-1", "kslider", "int", 45, 4, "obj-8", "function", "clear", 7, "obj-8", "function", "add", 0.0, 0.0, 0, 7, "obj-8", "function", "add", 74.468086, 2.0, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 5, "obj-8", "function", "domain", 1000.0, 6, "obj-8", "function", "range", 0.0, 2.0, 5, "obj-8", "function", "mode", 0, 5, "<invalid>", "number~", "list", 0.0, 5, "obj-21", "flonum", "float", 2.0, 4, "obj-27", "function", "clear", 7, "obj-27", "function", "add", 0.0, 0.0, 0, 7, "obj-27", "function", "add", 111.702126000000007, 1.0, 0, 7, "obj-27", "function", "add", 297.872344999999996, 0.6, 0, 7, "obj-27", "function", "add", 781.914916999999946, 0.586667, 0, 7, "obj-27", "function", "add", 1000.0, 0.0, 0, 5, "obj-27", "function", "domain", 1000.0, 6, "obj-27", "function", "range", 0.0, 1.0, 5, "obj-27", "function", "mode", 0, 5, "obj-29", "flonum", "float", 1.0 ]
+							"data" : [ 5, "obj-1", "kslider", "int", 45, 4, "obj-8", "function", "clear", 7, "obj-8", "function", "add", 0.0, 0.0, 0, 7, "obj-8", "function", "add", 74.468086, 2.0, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 5, "obj-8", "function", "domain", 1000.0, 6, "obj-8", "function", "range", 0.0, 2.0, 5, "obj-8", "function", "mode", 0, 5, "obj-21", "number", "float", 2.0, 4, "obj-27", "function", "clear", 7, "obj-27", "function", "add", 0.0, 0.0, 0, 7, "obj-27", "function", "add", 111.702126000000007, 1.0, 0, 7, "obj-27", "function", "add", 297.872344999999996, 0.6, 0, 7, "obj-27", "function", "add", 781.914916999999946, 0.586667, 0, 7, "obj-27", "function", "add", 1000.0, 0.0, 0, 5, "obj-27", "function", "domain", 1000.0, 6, "obj-27", "function", "range", 0.0, 1.0, 5, "obj-27", "function", "mode", 0, 5, "obj-29", "number", "float", 1.0 ]
 						}
 , 						{
 							"number" : 3,
-							"data" : [ 5, "obj-1", "kslider", "int", 57, 4, "obj-8", "function", "clear", 7, "obj-8", "function", "add", 0.0, 0.0, 0, 7, "obj-8", "function", "add", 856.382996000000048, 1.093333, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 5, "obj-8", "function", "domain", 1000.0, 6, "obj-8", "function", "range", 0.0, 2.0, 5, "obj-8", "function", "mode", 0, 5, "<invalid>", "number~", "list", 0.0, 5, "obj-21", "flonum", "float", 2.0, 4, "obj-27", "function", "clear", 7, "obj-27", "function", "add", 0.0, 0.0, 0, 7, "obj-27", "function", "add", 781.914916999999946, 0.586667, 0, 7, "obj-27", "function", "add", 1000.0, 0.0, 0, 5, "obj-27", "function", "domain", 1000.0, 6, "obj-27", "function", "range", 0.0, 1.0, 5, "obj-27", "function", "mode", 0, 5, "obj-29", "flonum", "float", 4.0 ]
+							"data" : [ 5, "obj-1", "kslider", "int", 57, 4, "obj-8", "function", "clear", 7, "obj-8", "function", "add", 0.0, 0.0, 0, 7, "obj-8", "function", "add", 856.382996000000048, 1.093333, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 7, "obj-8", "function", "add", 1000.0, 0.0, 0, 5, "obj-8", "function", "domain", 1000.0, 6, "obj-8", "function", "range", 0.0, 2.0, 5, "obj-8", "function", "mode", 0, 5, "obj-21", "number", "float", 2.0, 4, "obj-27", "function", "clear", 7, "obj-27", "function", "add", 0.0, 0.0, 0, 7, "obj-27", "function", "add", 781.914916999999946, 0.586667, 0, 7, "obj-27", "function", "add", 1000.0, 0.0, 0, 5, "obj-27", "function", "domain", 1000.0, 6, "obj-27", "function", "range", 0.0, 1.0, 5, "obj-27", "function", "mode", 0, 5, "obj-29", "number", "float", 4.0 ]
 						}
  ]
 				}
@@ -1616,14 +1600,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "Screenshot 2024-10-31 114045.png",
-				"bootpath" : "~/OneDrive - GLASGOW CALEDONIAN UNIVERSITY/Academic Year 24-25/Audio Processing and Effects/Tutorials/Week 6/Max Patches",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
